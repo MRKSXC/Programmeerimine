@@ -3,7 +3,7 @@ Synniaasta = raw_input('Mis on sinu synniaasta :')
 
 capitalize_name = name.capitalize()
 upper_n = name.upper()
-ST = name.isalpha();
+ST = name.isalpha()
 
 
 if name != capitalize_name:
