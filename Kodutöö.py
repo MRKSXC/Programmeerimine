@@ -1,4 +1,3 @@
-
 name = raw_input('Mis on sinu nimi :')
 Synniaasta = raw_input('Mis on sinu synniaasta :')
 
@@ -16,7 +15,7 @@ elif name == capitalize_name:
 	print 'sinu synniaasta on ' + Synniaasta
 	print 'Name in Uppercase ' + name.upper()
 	
-if name == ST:
+if ST == True:
 	print 'Jah';
 else:
 	print 'Ei';
