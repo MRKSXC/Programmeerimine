@@ -16,9 +16,9 @@ elif name == capitalize_name:
 	print 'Nimi v2ikestes t2htedega ' + name.lower()
 	
 if ST == True:
-	print 'Jah';
+	print 'Kas sinu nimes on k6ik t2hed: Jah';
 else:
-	print 'Ei';
+	print 'Kas sinu nimes on k6ik t2hed: EI';
 
  	
 
