@@ -1,24 +1,39 @@
+#!/usr/bin/python
+# coding: latin-1
+
+
 name = raw_input('Mis on sinu nimi :')
-Synniaasta = raw_input('Mis on sinu synniaasta :')
+Synniaasta = raw_input('Mis on sinu sünniaasta :')
 
 capitalize_name = name.capitalize()
-ST = name.isalpha()
+ST = name.isalpha();
+UP = name.isalpha();
+
 
 
 if name != capitalize_name:
-	print'Suur algust2ht'
+	print'Suur algustäht'
+
 
 	
 elif name == capitalize_name:
-	print 'sinu nimi on ' + capitalize_name
-	print 'sinu synniaasta on ' + Synniaasta
-	print 'Nimi suurtet2htedega ' + name.upper()
-	print 'Nimi v2ikestes t2htedega ' + name.lower()
+	print 'sinu nimi on: ' + capitalize_name
+	print 'sinu sünniaasta on: ' + Synniaasta
+
+if UP != True:
+	print 'Nimes on numbrid, Suurte tähtedega nime ei kuvata'
+else:
+	print 'Nimi suurte tähtedega: ' + name.upper()
+
+if UP != True:
+	print 'Nimes on numbrid, Väikeste tähtedega nime ei kuvata'
+else:
+	print 'Nimi väikestes tähtedega: ' + name.lower()
 	
 if ST == True:
-	print 'Kas sinu nimes on k6ik t2hed: Jah';
+	print 'Kas sinu nimes on kõik tähed: Jah';
 else:
-	print 'Kas sinu nimes on k6ik t2hed: EI';
+	print 'Kas sinu nimes on kõik tähed: EI';
 
  	
 
