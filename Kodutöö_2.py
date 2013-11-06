@@ -17,7 +17,7 @@ print '|', Ettev6te.center(60,' '),	'|'
 print '|', Tyhjus.center(60,' '),	'|'
 print '|', Nimi.center(60,' '),		'|'
 print '|', Amet.center(60,' '),		'|'
-print '/', Kontakt.center(60,' '),	'\ '
+print '/', Kontakt.center(60,' '), '\ '
 print '>', Joon.center(60,'-'),		'<'
 
 
