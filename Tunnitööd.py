@@ -68,6 +68,27 @@ c = 5
 while n <= c:
 	b = b*n
 	n = n+1
+	
+	
+	
+	
+	
+	
+#!/usr/bin/python
+# coding: latin-1
+import os
+import random
+clear = os.system('clear');
+
+a = 1
+b = '#'
+d = 20
+
+while a <= d:
+        print b
+        b = b * a
+        a = a + 1
+
 
 
 
